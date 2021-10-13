@@ -3,7 +3,7 @@
     "path": "F:/Rmarkdown Blog/MyRmarkdownBlog/netlify.toml",
     "project_path": "netlify.toml",
     "type": "toml",
-    "hash": "0",
+    "hash": "2810560432",
     "contents": "",
     "dirty": false,
     "created": 1634099398142.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "16,23",
+        "cursorPosition": "1,29",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1634097225,
+    "lastKnownWriteTime": 1634100064,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1634097225,
+    "last_content_update": 1634100064110,
     "read_only": false,
     "read_only_alternatives": []
 }
