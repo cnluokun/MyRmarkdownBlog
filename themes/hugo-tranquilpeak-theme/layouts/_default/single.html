@@ -18,7 +18,14 @@
           <div class="post-content markdown">
             <div class="main-content-wrap">
               {{ .Content }}
-              {{ partial "post/gallery.html" . }}
+
+            {{ define "share" }}
+                {{ if eq .Site.Params.share_style}}
+                <div style="width: 40px; position: fixed; top: 50%; z-index: 999; left: 25px; transform: translateY(-50%)"> 
+                    {{ partial "share.html" . }}
+                </div>
+                {{ end }}
+            {{ end }}
             </div>
           </div>
           <div id="post-footer" class="post-footer main-content-wrap">

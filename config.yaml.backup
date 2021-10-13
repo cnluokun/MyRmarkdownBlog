@@ -1,6 +1,6 @@
 baseURL: https://cnluokun.netlify.app
 languageCode: en-us
-defaultContentLanguage: zh-cn
+defaultContentLanguage: en-us
 title: Cnluokun's Blog
 theme: hugo-tranquilpeak-theme
 disqusShortname: cnlowkeng
@@ -31,15 +31,15 @@ menu:
       pre: <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
       url: https://github.com/kakawait
       weight: 1
-    - identifier: bilibili
-      name: Bilibili
-      pre: <i  class="sidebar-button-icon far fa-tv"  aria-hidden="true"></i>
-      url:  https://space.bilibili.com/8877404
-      weight: 3
+    - identifier: stackoverflow
+      name: Stack Overflow
+      pre: <i class="sidebar-button-icon fab fa-lg fa-stack-overflow" aria-hidden="true"></i>
+      url: https://stackoverflow.com/users/636472/kakawait
+      weight: 2
   main:
     - identifier: home
       name: Home
-      pre: <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true" ></i>
+      pre: <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
       url: /
       weight: 1
     - identifier: categories
@@ -83,7 +83,7 @@ params:
         language: en
         pagerDirection: first
         perPage: 10
-  coverImage: images/coverme.jpg
+  coverImage: images/cover.jpg
   customJS:
     - async: yes
       crossorigin: anonymous
@@ -135,10 +135,6 @@ params:
       defer: yes
       integrity: sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==
       src: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js
-    - async: yes
-      crossorigin: anonymous
-      defer: yes
-      src: https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js
   description: Hugo tranquilpeak theme demo
   header:
     rightLink:
@@ -151,43 +147,13 @@ params:
     - icon: fab fa-facebook-square
       name: Facebook
       url: https://www.facebook.com/sharer/sharer.php?u=%s
-      
     - icon: fab fa-twitter
       name: Twitter
       url: https://twitter.com/intent/tweet?text=%s
-      
     - icon: fab fa-linkedin
       name: Linkedin
       url: https://www.linkedin.com/sharing/share-offsite/?url=%s
-      
-    - icon: fab fa-qq
-      name: QQ
-      url: https://connect.qq.com/widget/shareqq/index.html?url=%s
-
-    - icon: fab fa-weibo
-      name: SinaBlog
-      url: https://service.weibo.com/share/share.php?url=%s
-      
-    - icon: fab fa-weixin
-      name: Wechat
-      url: /weixin-share.js
-      
-    - icon: fas fa-envelope
-      name: Email
-      url: mailto:lksteven2013@163.com
-      
-    - icon: "fab fa-whatsapp"
-      name: "Whatsapp"
-      url: "https://wa.me/?text=%s"
-      
-  social-share: true 
-  social-share-items: ['wechat']
   sidebarBehavior: 1
-  sidebar:
-    profile: 
-      url: /#about
   syntaxHighlighter: highlight.js
   thumbnailImage: yes
-  thumbnailImagePosition: left
-  
-    
+  thumbnailImagePosition: bottom
