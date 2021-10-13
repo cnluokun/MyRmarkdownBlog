@@ -135,10 +135,6 @@ params:
       defer: yes
       integrity: sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==
       src: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js
-    - async: yes
-      crossorigin: anonymous
-      defer: yes
-      src: https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js
   description: Hugo tranquilpeak theme demo
   header:
     rightLink:
@@ -168,20 +164,10 @@ params:
       name: SinaBlog
       url: https://service.weibo.com/share/share.php?url=%s
       
-    - icon: fab fa-weixin
-      name: Wechat
-      url: /weixin-share.js
-      
     - icon: fas fa-envelope
       name: Email
       url: mailto:lksteven2013@163.com
       
-    - icon: "fab fa-whatsapp"
-      name: "Whatsapp"
-      url: "https://wa.me/?text=%s"
-      
-  social-share: true 
-  social-share-items: ['wechat']
   sidebarBehavior: 1
   sidebar:
     profile: 
