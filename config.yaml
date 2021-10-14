@@ -174,7 +174,7 @@ params:
     profile: 
       url: /#about
   syntaxHighlighter: highlight.js
-  thumbnailImage: yes
+  thumbnailImage: true
   thumbnailImagePosition: left
   
     
