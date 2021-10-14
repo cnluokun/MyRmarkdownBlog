@@ -14,7 +14,7 @@ taxonomies:
   tag: tags
 markup:
   tableOfContents:
-    endLevel: 3
+    endLevel: 6
     ordered: no
     startLevel: 1
 author:
