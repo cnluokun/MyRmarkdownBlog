@@ -37,8 +37,14 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. `Sed erat diam`, b
 ## List Types
 
 ### Definition List (dl)
-
-<dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl>
+<dl>
+  <dt>
+    Definition List Title
+  </dt>
+  <dd>
+  This is a definition list division.
+  </dd>
+</dl>
 
 ### Ordered List (ol)
 

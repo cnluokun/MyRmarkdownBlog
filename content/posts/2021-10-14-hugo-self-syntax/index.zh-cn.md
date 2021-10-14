@@ -3,6 +3,10 @@ title: 测试一些hugo主题的syntax
 author: cnluokun
 date: '2021-10-14'
 slug: index.zh-cn
+coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
+coverMeta: out
+metaAlignment: center
+thumbnailImagePosition: bottom
 categories:
   - uncategoried
 tags:
@@ -13,9 +17,8 @@ gallery:
 autoThumbnailImage: yes 
 ---
 This post is used to show how tag plugins are displayed. See docs for more info.
+<!--more-->
 
-
-<--!more-->
 
 ## 1. Tags plugins showcase
 ### 1.1 Alert Tag：测试Info/Succ/Warn/Danger标签
@@ -128,8 +131,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 {{% /expand%}}
 
 ### 1.5.Pull Quote:Quote内容环绕
-```
-{% pullquote %}
-Here's a more realistic example of how you might use a pull quote. When writing longform posts, I find it helpful to include pull quotes to help readers easily identify the topics covered in each section. Some prefer to break things up with lots of headings, and while this seems to be a trend it doesn't work so well for long form prose. {"It is important to note that pull quotes are merely visual in presentation and should not appear twice in the text."} That is why it a CSS only technique for styling pull quotes is preferable. Octopress includes a handy pull quote plugin to make this easy for you.
-{% endpullquote %}
-```
+
+Here's a more realistic example of how you might use a pull quote. When writing longform posts, I find it helpful to include pull quotes to help readers easily identify the topics covered in each section. Some prefer to break things up with lots of headings, and while this seems to be a trend it doesn't work so well for long form prose. 
+{{< pullquote left >}}
+It is important to note that pull quotes are merely visual in presentation and should not appear twice in the text.
+{{< /pullquote >}} 
+That is why it a CSS only technique for styling pull quotes is preferable. Octopress includes a handy pull quote plugin to make this easy for you.
+
