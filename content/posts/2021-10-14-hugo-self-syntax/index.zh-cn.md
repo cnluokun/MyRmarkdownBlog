@@ -105,6 +105,18 @@ print("Hello World!")
 {{< /tab >}}
 {{< /tabs >}}
 
+### 测试选项卡
+{{< tabpane >}}
+  {{< tabbed header="English" >}}
+    Welcome!
+  {{< /tabbed >}}
+  {{< tabbed header="German" >}}
+    Herzlich willkommen!
+  {{< /tabbed >}}
+  {{< tabbed header="Swahili" >}}
+    Karibu sana!
+  {{< /tabbed >}}
+{{< /tabpane >}}
 
 ### 4.折叠内容
 {{%expand "EXPAND ME"%}}
