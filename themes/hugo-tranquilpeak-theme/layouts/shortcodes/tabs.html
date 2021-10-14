@@ -1,33 +1,22 @@
-{{with .Inner }}{{/* don't do anything, just call it */}}{{ end }}
-<div class="tab-panel">
-	<div class="tab-nav">
+<nav>
+	<div class="nav nav-tabs" id="nav-tab" role="tablist">
 
 		{{ $tabTotal := .Get "tabTotal" }}
+		{{ $tabName := $.Scratch.Get "tabName" }}
+		{{ $tabID := delimit (shuffle (seq 1 5)) "" }}
+
 		{{ range $i, $sequence := (seq $tabTotal) }}
 
-		{{ $tabID := $.Get "tabID" }}
-		{{ $tabName := (print "tabName" $sequence) }}
-		{{ $tabHREF := (print "tab" $tabID $sequence) }}
-
-		{{ if eq $sequence 1 }}
-
-		<a class="nav-item nav-link active" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab"
-		   aria-controls="nav-home" aria-selected="true">{{ $.Get $tabName }}</a>
-
-		{{ else }}
-
-		<a class="nav-item nav-link" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab"
-		   aria-controls="nav-home" aria-selected="false">{{ $.Get $tabName }}</a>
+		<a class="nav-item nav-link {{ if eq $i 0 }} active {{ end }}" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ lower (replaceRE "(\\s)" "" (index $tabName $i)) }}"
+		role="tab" aria-controls="nav-home" aria-selected="true">{{ index $tabName $i }}</a>
 
 		{{ end }}
-		{{ end }}
-    <div class="tab-content">
-        {{ range $idx, $tab := .Scratch.Get "tabs" }}
-        <div data-tab-item="{{ .name}}" data-tab-group="{{ $ tabID }}" class="tab-item {{ cond (eq $idx 0) "active" ""}}">
-            {{ .content }}
-        </div>
-        {{ end }}
-    </div>
+
 	</div>
-</div>
+</nav>
 
+<div class="tab-content" id="{{ $tabID }}">
+
+{{ .Inner }}
+
+</div>

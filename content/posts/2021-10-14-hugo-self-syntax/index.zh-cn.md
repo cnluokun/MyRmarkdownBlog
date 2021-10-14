@@ -80,11 +80,14 @@ tags:
 {{< tab tabNum="1" >}}
 
 **Tab 1 Content**
-
+```python
+print("Hello World!")
+```
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
 **Tab 2 Content**
+
 
 {{< /tab >}}
 {{< tab tabNum="3" >}}
