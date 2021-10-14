@@ -117,8 +117,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 {{% /expand%}}
 
 ### 5.Pull Quote:Quote内容环绕
-Here's a more realistic example of how you might use a pull quote. When writing longform posts, I find it helpful to include pull quotes to help readers easily identify the topics covered in each section. Some prefer to break things up with lots of headings, and while this seems to be a trend it doesn't work so well for long form prose. It is important to note that pull quotes are merely visual in presentation and should not appear twice in the text. That is why it a CSS only technique for styling pull quotes is preferable. Octopress includes a handy pull quote plugin to make this easy for you.
 {% pullquote left %}
-Surround your paragraph with the pull quote tags. Then when you come to
-the text you want to pull, {" surround it like this "} and that's all there is to it.
+Here's a more realistic example of how you might use a pull quote. When writing longform posts, I find it helpful to include pull quotes to help readers easily identify the topics covered in each section. Some prefer to break things up with lots of headings, and while this seems to be a trend it doesn't work so well for long form prose. {"It is important to note that pull quotes are merely visual in presentation and should not appear twice in the text."} That is why it a CSS only technique for styling pull quotes is preferable. Octopress includes a handy pull quote plugin to make this easy for you.
 {% endpullquote %}
