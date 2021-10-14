@@ -2,6 +2,7 @@ baseURL: https://cnluokun.netlify.app
 languageCode: en-us
 defaultContentLanguage: zh-cn
 title: Cnluokun's Blog
+#theme: [hugo-dynamic-tabs,hugo-tranquilpeak-theme]
 theme: hugo-tranquilpeak-theme
 disqusShortname: cnlowkeng
 paginate: 7
