@@ -1,9 +1,7 @@
 ---
-title: "Tags plugins showcase"
-date: 2014-10-29
-tags:
-- tag plugins
-- test
+title: Tags plugins showcase
+author: cnluokun
+date: '2014-10-29'
 thumbnailImagePosition: left
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-6-140.jpg
 ---

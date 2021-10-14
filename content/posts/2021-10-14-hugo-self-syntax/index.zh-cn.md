@@ -7,14 +7,9 @@ coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 coverMeta: out
 metaAlignment: center
 thumbnailImagePosition: bottom
-categories:
-  - uncategoried
-tags:
-  - pull-quote
-  - tabbed-codeblock
-gallery: 
+gallery:
   - https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80
-autoThumbnailImage: yes 
+autoThumbnailImage: yes
 ---
 This post is used to show how tag plugins are displayed. See docs for more info.
 <!--more-->
@@ -119,6 +114,7 @@ print("Hello World!")
     Karibu sana!
   {{< /tabbed >}}
 {{< /tabpane >}}
+
 
 ### 1.4.折叠内容
 {{%expand "EXPAND ME"%}}
