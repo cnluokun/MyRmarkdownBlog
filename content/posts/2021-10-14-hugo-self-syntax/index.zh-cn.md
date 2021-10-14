@@ -33,33 +33,68 @@ tags:
 此处文本测试Danger标签使用效果。
 {{</alert>}}
 ### 2. Tabbed code block: Tab测试
-{{< tabbed-codeblock example  >}}
+{{<tabbed-codeblock TabbedCodeBlock>}}
+
     <!-- tab js -->
         var test = 'test';
     <!-- endtab -->
+    
     <!-- tab css -->
         .btn {
             color: red;
         }
     <!-- endtab -->
-{{< /tabbed-codeblock >}}
-
-
-突发奇想可不可以用`tabbed-codeblock`标签实现一般情况的Tab栏
-{{< tabbed-codeblock >}}
-    <!-- tab TAB1 -->
-        此处文本代表TAB1的内容
-        ```cpp
-        cout<<"Hello World"<<endl;
-        ```
+    
+    <!-- tab html -->
+        <?xml version="1.0"?>
+        <response value="ok" xml:lang="en">
+          <text>Ok</text>
+          <comment html_allowed="true"/>
+          <ns1:description><![CDATA[
+          CDATA is <not> magical.
+          ]]></ns1:description>
+          <a></a> <a/>
+        </response>
+        
+        
+        <!DOCTYPE html>
+        <title>Title</title>
+        
+        <style>body {width: 500px;}</style>
+        
+        <script type="application/javascript">
+          function $init() {return true;}
+        </script>
+        
+        <body>
+          <p checked class="title" id='title'>Title</p>
+          <!-- here goes the rest of the page -->
+        </body> 
     <!-- endtab -->
-    <!-- tab TAB2 -->
-        此处文本代表TAB2的内容
-        ```bash
-        sudo apt-get install npm
-        ```
-    <!-- endtab -->
-{{< /tabbed-codeblock >}}
+    
+{{</tabbed-codeblock>}}
+
+### 3.Hugo Dynamic Tabs
+外挂插件实现Tab栏效果
+{{< tabs tabTotal="3" tabID="1" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" >}}
+{{< tab tabNum="1" >}}
+
+**Tab 1 Content**
+```cpp
+cout<<"hello world!"<<endl;
+```
+{{< /tab >}}
+{{< tab tabNum="2" >}}
+
+**Tab 2 Content**
+
+{{< /tab >}}
+{{< tab tabNum="3" >}}
+
+**Tab 3 Content**
+
+{{< /tab >}}
+{{< /tabs >}}
 
 ### 3.Pull Quote:Quote内容环绕
 Here's a more realistic example of how you might use a pull quote. When writing longform posts, I find it helpful to include pull quotes to help readers easily identify the topics covered in each section. Some prefer to break things up with lots of headings, and while this seems to be a trend it doesn't work so well for long form prose. It is important to note that pull quotes are merely visual in presentation and should not appear twice in the text. That is why it a CSS only technique for styling pull quotes is preferable. Octopress includes a handy pull quote plugin to make this easy for you.

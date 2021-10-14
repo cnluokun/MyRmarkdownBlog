@@ -1,4 +1,3 @@
-{{ $_hugo_config := `{ "version": 1 }` }}
 {{ $tabs := findRE "<!-- *[Tt][Aa][Bb] +(\\w*) *-->\\n([\\w\\W\\s\\S]*?)<!-- *[Ee][Nn][Dd][Tt][Aa][Bb] *-->" .Inner }}
 {{ range $index,$value := $tabs }}
   {{ $language := replaceRE "<!-- *[Tt][Aa][Bb] +(\\w*) *-->" "$1" (index (findRE "<!-- *[Tt][Aa][Bb] +(\\w*) *-->" .) 0) }}
