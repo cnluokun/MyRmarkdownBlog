@@ -6,10 +6,21 @@
 		{{ $tabID := delimit (shuffle (seq 1 5)) "" }}
 
 		{{ range $i, $sequence := (seq $tabTotal) }}
+		
+
+		{{ if eq $sequence 1 }}
 
 		<a class="nav-item nav-link {{ if eq $i 0 }} active {{ end }}" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ lower (replaceRE "(\\s)" "" (index $tabName $i)) }}"
 		role="tab" aria-controls="nav-home" aria-selected="true">{{ index $tabName $i }}</a>
+		   
+		   
 
+		{{ else }}
+
+		<a class="nav-item nav-link" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ lower (replaceRE "(\\s)" "" (index $tabName $i)) }}"
+		role="tab" aria-controls="nav-home" aria-selected="true">{{ index $tabName $i }}</a>
+
+		{{ end }}
 		{{ end }}
 
 	</div>

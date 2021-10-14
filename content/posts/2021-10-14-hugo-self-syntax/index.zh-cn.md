@@ -76,7 +76,15 @@ tags:
 
 ### 3.Hugo Dynamic Tabs
 外挂插件实现Tab栏效果
-{{< tabs tabTotal="3" tabID="1" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" >}}
+{{< tabs tabTotal="1" tabID="1" tabName1="Tab 1" >}}
+{{< tab tabNum="1" >}}
+
+**Tab 1 Content**
+
+{{< /tab >}}
+{{< /tabs >}}
+
+{{< tabs tabTotal="3" tabID="2" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" >}}
 {{< tab tabNum="1" >}}
 
 **Tab 1 Content**
