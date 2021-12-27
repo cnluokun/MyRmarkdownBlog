@@ -158,7 +158,7 @@ params:
       icon: ''
       url: /#about
   hierarchicalCategories: yes
-  imageGallery: no
+  imageGallery: yes
   sharingOptions:
     - icon: fab fa-facebook-square
       name: Facebook
