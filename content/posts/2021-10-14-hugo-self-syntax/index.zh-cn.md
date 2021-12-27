@@ -1,17 +1,16 @@
 ---
-title: 测试一些hugo主题的syntax
-author: cnluokun
+title: "测试Hugo主题的syntax"
+author: "cnluokun"
 date: '2021-10-14'
-slug: index.zh-cn
+output: pdf_document
 coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
-coverMeta: out
+coverMeta: in
 metaAlignment: center
-thumbnailImagePosition: bottom
-gallery:
-  - https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80
+thumbnailImagePosition: left
 autoThumbnailImage: yes
+slug: index.zh-cn
 ---
-This post is used to show how tag plugins are displayed. See docs for more info.
+This post is used to show how Tranquilpeak theme is configured for Hugo framework. Tranquilpeak theme is compatible with Hugo `v0.53`. See [docs](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags) for more information.
 <!--more-->
 
 
@@ -36,85 +35,6 @@ This post is used to show how tag plugins are displayed. See docs for more info.
 此处文本测试Danger标签使用效果。
 此处文本测试Danger标签使用效果。
 {{</alert>}}
-### 1.2 Tabbed code block: Tab测试
-{{<tabbed-codeblock TabbedCodeBlock>}}
-
-    <!-- tab js -->
-        var test = 'test';
-    <!-- endtab -->
-    
-    <!-- tab css -->
-        .btn {
-            color: red;
-        }
-    <!-- endtab -->
-    
-    <!-- tab html -->
-        <?xml version="1.0"?>
-        <response value="ok" xml:lang="en">
-          <text>Ok</text>
-          <comment html_allowed="true"/>
-          <ns1:description><![CDATA[
-          CDATA is <not> magical.
-          ]]></ns1:description>
-          <a></a> <a/>
-        </response>
-        
-        
-        <!DOCTYPE html>
-        <title>Title</title>
-        
-        <style>body {width: 500px;}</style>
-        
-        <script type="application/javascript">
-          function $init() {return true;}
-        </script>
-        
-        <body>
-          <p checked class="title" id='title'>Title</p>
-          <!-- here goes the rest of the page -->
-        </body> 
-    <!-- endtab -->
-    
-{{</tabbed-codeblock>}}
-
-### 1.3.Tabbed-View:选项卡效果
-#### 1.3.1 hugo-dynamic-tabs外挂插件实现Tab栏效果
-
-{{< tabs tabTotal="3" tabID="2" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" >}}
-{{< tab tabNum="1" >}}
-
-**Tab 1 Content**
-```python
-print("Hello World!")
-```
-{{< /tab >}}
-{{< tab tabNum="2" >}}
-
-**Tab 2 Content**
-
-
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-
-**Tab 3 Content**
-
-{{< /tab >}}
-{{< /tabs >}}
-
-#### 1.3.2  docsy主题的tapped-pane效果
-{{< tabpane >}}
-  {{< tabbed header="English" >}}
-    Welcome!
-  {{< /tabbed >}}
-  {{< tabbed header="German" >}}
-    Herzlich willkommen!
-  {{< /tabbed >}}
-  {{< tabbed header="Swahili" >}}
-    Karibu sana!
-  {{< /tabbed >}}
-{{< /tabpane >}}
-
 
 ### 1.4.折叠内容
 {{%expand "EXPAND ME"%}}

@@ -25,6 +25,9 @@ author:
   location: Beijing
   name: Luo Kun
   picture: https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png
+  # 头像，路径是tranquilpeak/static/images
+  # 以后所有要使用的图片可以放到这里，自己多存一些图片
+  # picture = "/images/touxiang.jpg"
 menu:
   links:
     - identifier: github
@@ -36,7 +39,19 @@ menu:
       name: Bilibili
       pre: <i  class="sidebar-button-icon far fa-tv"  aria-hidden="true"></i>
       url:  https://space.bilibili.com/8877404
+      weight: 2
+      
+    - identifier: zhihu
+      name: ZhiHu
+      pre: <i class="sidebar-button-icon fab fa-zhihu" aria-hidden="true"></i>
+      url: https://www.zhihu.com/people/lowkeng
       weight: 3
+#    - identifier: rss 
+#      name: RSS 
+#      pre: <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+#      url: /index.xml
+#      weight: 4
+      
   main:
     - identifier: home
       name: Home
@@ -63,12 +78,12 @@ menu:
       pre: <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
       url: /#about
       weight: 5
-  misc:
-    - identifier: rss
-      name: RSS
-      pre: <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
-      url: /index.xml
-      weight: 1
+#  misc:
+#    - identifier: rss
+#      name: RSS
+#      pre: <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+#      url: /index.xml
+#      weight: 1
 params:
   autoThumbnailImage: yes
   clearReading: yes
@@ -143,7 +158,7 @@ params:
       icon: ''
       url: /#about
   hierarchicalCategories: yes
-  imageGallery: yes
+  imageGallery: no
   sharingOptions:
     - icon: fab fa-facebook-square
       name: Facebook
@@ -176,5 +191,7 @@ params:
   syntaxHighlighter: highlight.js
   thumbnailImage: true
   thumbnailImagePosition: left
+  favicon:  images/favicon.png
   
-    
+  
+  
