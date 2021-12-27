@@ -191,7 +191,7 @@ params:
   syntaxHighlighter: highlight.js
   thumbnailImage: true
   thumbnailImagePosition: left
-  favicon:  images/favicon.png
+  favicon:  /favicon.png
   
   
   
