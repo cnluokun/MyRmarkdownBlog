@@ -62,30 +62,23 @@ plot(mpg ~ hp, data = mtcars, pch = 19)</code></pre>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 <div id="code-block" class="section level2">
-<h2>Code Block</h2>
-<pre class="python"><code>print Hello World!</code></pre>
-<pre class="cpp"><code>cout&lt;&lt;&quot;风之极，落日耀——&quot;&lt;&lt;endl;</code></pre>
-<pre class="c"><code>#include&lt;iostream.h&gt;
-void main()
-{ 
-    printf(&quot;言葉ばにできず　凍えたままで&quot;,s%);
-}</code></pre>
-</div>
-<div id="tabbed-code-block" class="section level2">
 <h2>Tabbed Code Block</h2>
-<p>{{< tabbed >}}</p>
-<p>{{< tabpane "python" >}}
-print “Hello World!将来,你要用左手的锤子保护好右手的草。”
-{{< /tabpane >}}</p>
-<p>{{< tabpane "cpp" >}}
-cout&lt;&lt;“风之极，落日耀——”&lt;&lt;endl;
-{{< /tabpane >}}</p>
-<p>{{< tabpane "c" >}}
-#include&lt;iostream.h&gt;
-void main()
-{
-printf(“言葉ばにできず　凍えたままで”,s%);
-}
-{{< /tabpane >}}</p>
-<p>{{< /tabbed >}}</p>
+<ul class="tabbed">
+  <li class="tabpane>">
+    {{< tabbed >}}
+      {{< tabpane "python" >}}
+      <pre class="python"><code>print "Hello World!将来,你要用左手的锤子保护好右手的草。"</code></pre>
+      {{< /tabpane >}}
+      {{< tabpane "cpp" >}}
+      <pre class="cpp"><code>cout&lt;&lt;&quot;风之极，落日耀——&quot;&lt;&lt;endl;</code></pre>
+      {{< /tabpane >}}
+      {{< tabpane "c" >}}
+      <pre class="c"><code>#include&lt;iostream.h&gt;
+        void main()
+        { 
+            printf(&quot;言葉ばにできず　凍えたままで&quot;,s%);
+        }</code></pre>
+        {{< /tabpane >}}
+    {{< /tabbed >}}
+  </li></ul>
 </div>

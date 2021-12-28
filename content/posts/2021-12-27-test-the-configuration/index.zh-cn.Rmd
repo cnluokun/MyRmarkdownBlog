@@ -70,7 +70,7 @@ void main()
 }
 ```
 
-## Tabbed Code Block
+##Tabbed Code Block
 
 ```{r echo=FALSE}
 blogdown::shortcode_open("tabbed",.type="html")
