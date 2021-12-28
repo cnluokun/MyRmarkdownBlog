@@ -1,15 +1,13 @@
 ---
-title: custom shortcode test
+title: 'Test the tabbed-view-codeblock '
 author: Luo Kun
 date: '2021-12-28'
 slug: index.zh-cn
-categories:
-tags:
-keywords:
-coverImage: https://bityl.co/AFxR
+categories: []
+tags: []
+coverImage: https://bityl.co/AFzN
 coverMeta: in
 metaAlignment: center
-thumbnailImagePosition: right
 ---
 
 ## Tabbed Code Block
@@ -25,6 +23,7 @@ cout&lt;&lt;“风之极，落日耀——”&lt;&lt;endl;
 {{% /tab %}}
 
 {{% tab "c" %}}
+<!-- tab c-->
 \#include&lt;iostream.h&gt;
 void main()
 {

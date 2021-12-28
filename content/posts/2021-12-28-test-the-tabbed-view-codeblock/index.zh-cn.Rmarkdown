@@ -1,15 +1,13 @@
 ---
-title: custom shortcode test
+title: 'Test the tabbed-view-codeblock '
 author: Luo Kun
 date: '2021-12-28'
 slug: index.zh-cn
-categories:
-tags:
-keywords:
-coverImage: https://bityl.co/AFxR
+categories: []
+tags: []
+coverImage: https://bityl.co/AFzN
 coverMeta: in
 metaAlignment: center
-thumbnailImagePosition: right
 ---
 
 ## Tabbed Code Block
@@ -37,6 +35,7 @@ blogdown::shortcode_close("tab")
 ```{r echo=FALSE}
 blogdown::shortcode_open("tab","c")
 ```
+    <!-- tab c-->
     #include<iostream.h>
     void main()
     { 
@@ -49,4 +48,3 @@ blogdown::shortcode_close("tab")
 ```{r echo=FALSE}
 blogdown::shortcode_close("tabbed-codeblock")
 ```
-
