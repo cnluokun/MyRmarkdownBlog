@@ -10,7 +10,7 @@ tags: []
 coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 coverMeta: in
 metaAlignment: center
-thumbnailImagePosition: left
+thumbnailImagePosition: right
 slug: index.zh-cn
 summary: "This post is used to show how Tranquilpeak theme is configured for Hugo framework. Tranquilpeak theme is compatible with Hugo v0.53. "
 ---
