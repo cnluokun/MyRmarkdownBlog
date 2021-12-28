@@ -73,7 +73,7 @@ void main()
 ## Tabbed Code Block
 
 ```{r echo=FALSE}
-blogdown::shortcode("tabbed-codeblock",.type="html")
+blogdown::shortcode_html("tabbed-codeblock")
 ```
 
 {{< tabbed-codeblock >}}
