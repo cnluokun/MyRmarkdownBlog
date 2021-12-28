@@ -15,8 +15,7 @@ slug: index.zh-cn
 ---
 
 This post is used to show how Tranquilpeak theme is configured for Hugo framework. Tranquilpeak theme is compatible with Hugo `v0.53`.  
-See [docs](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags) for more information.
-<!-- more -->
+See [docs](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags) for more information.<!-- more -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
