@@ -18,6 +18,25 @@ markup:
     endLevel: 6
     ordered: no
     startLevel: 1
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
 author:
   bio: 如果命运是世界上最烂的编剧，你就要争取做自己人生最好的演员
   gravatarEmail: lksteven2013@163.com

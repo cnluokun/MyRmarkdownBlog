@@ -52,3 +52,20 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Tabbed Code Block
+
+```{r echo=FALSE}
+blogdown::shortcode_html('tabbed-codeblock')
+```
+{{< tabbed-codeblock >}}
+    <!-- tab js -- >
+        var test = 'test';
+    <!-- endtab -- >
+    <!-- tab css -->
+        .btn {
+            color: red;
+        }
+    <!-- endtab -->
+{{< /tabbed-codeblock >}}
