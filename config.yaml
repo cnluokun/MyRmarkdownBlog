@@ -8,7 +8,7 @@ disqusShortname: cnlowkeng
 paginate: 7
 canonifyurls: yes
 permalinks:
-  posts: /:year/:month/:title/
+  posts: /:filename/
 taxonomies:
   archive: archives
   category: categories
