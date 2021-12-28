@@ -10,15 +10,16 @@ tags: []
 coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 coverMeta: in
 metaAlignment: center
-thumbnailImagePosition: left
+thumbnailImagePosition: right
 slug: index.zh-cn
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<p>This post is used to show how Tranquilpeak theme is configured for Hugo framework. Tranquilpeak theme is compatible with Hugo <code>v0.53</code>.<br />
-<!-- more -->
+<p>This post is used to show how Tranquilpeak theme is configured for Hugo framework.Tranquilpeak theme is compatible with Hugo <code>v0.53</code>.
+<!--more-->
+This post is used to show how Tranquilpeak theme is configured for Hugo framework.Tranquilpeak theme is compatible with Hugo <code>v0.53</code>.<br />
 See <a href="https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags">docs</a> for more information.</p>
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>
@@ -72,20 +73,24 @@ void main()
 </div>
 <div id="tabbed-code-block" class="section level2">
 <h2>Tabbed Code Block</h2>
-<p>{{< tabbed-codeblock >}}
+<p>{{< tabbed-codeblock >}}</p>
 {{&lt; tabbed-codeblock &gt;}}
 <!-- tab python -->
 print “Hello World!将来,你要用左手的锤子保护好右手的草。”
-<!-- endtab -->
-<!-- tab cpp -->
-cout&lt;&lt;“风之极，落日耀——”&lt;&lt;endl;
-<!-- endtab -->
-<!-- tab c-->
+print
+<p>
+Hello <strong>World!</strong>
+</p>
+<pre><code>&lt;!-- endtab --&gt;
+&lt;!-- tab cpp --&gt;
+cout&lt;&lt;&quot;风之极，落日耀——&quot;&lt;&lt;endl;
+&lt;!-- endtab --&gt;
+&lt;!-- tab c--&gt;
 #include&lt;iostream.h&gt;
 void main()
-{
-printf(“言葉ばにできず　凍えたままで”,s%);
+{ 
+printf(&quot;言葉ばにできず　凍えたままで&quot;,s%);
 }
-<!-- endtab -->
-{{&lt; /tabbed-codeblock &gt;}}</p>
+&lt;!-- endtab --&gt;</code></pre>
+<p>{{&lt; /tabbed-codeblock &gt;}}</p>
 </div>
