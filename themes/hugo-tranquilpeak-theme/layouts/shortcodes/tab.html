@@ -1,3 +1,4 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
 {{ $tabNum := .Get "tabNum" }}
 {{ .Parent.Scratch.Add "tabNum" (slice $tabNum) }}
 {{ $tabID := print (.Parent.Get "tabID") $tab }}

@@ -70,25 +70,4 @@ void main()
 }
 ```
 
-## Tabbed Code Block
-
-```{r echo=FALSE}
-blogdown::shortcode_open("tabbed-codeblock",.type="html")
-```
-    <!-- tab python -->
-     print "Hello World!将来,你要用左手的锤子保护好右手的草。"
-    <!-- endtab -->
-    <!-- tab cpp -->
-    cout<<"风之极，落日耀——"<<endl;
-    <!-- endtab -->
-    <!-- tab c-->
-    #include<iostream.h>
-    void main()
-    { 
-    printf("言葉ばにできず　凍えたままで",s%);
-    }
-    <!-- endtab --> 
-```{r echo=FALSE}
-blogdown::shortcode_close("tabbed-codeblock",.type="html")
-```
 
