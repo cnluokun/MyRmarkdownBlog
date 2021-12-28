@@ -61,11 +61,11 @@ print Hello World!
 cout<<"风之极，落日耀——"<<endl;
 ```
 ```c
-        #include<iostream.h>
-	      void main()
-        { 
-            printf("言葉ばにできず　凍えたままで",s%);
-        }
+#include<iostream.h>
+void main()
+{ 
+    printf("言葉ばにできず　凍えたままで",s%);
+}
 ```
 
 ## Tabbed Code Block
