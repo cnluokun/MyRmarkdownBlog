@@ -57,17 +57,17 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ## Tabbed Code Block
 
 ```{r echo=FALSE}
-blogdown::shortcode_html('tabbed-codeblock')
+blogdown::shortcode('tabbed-codeblock')
 ```
 {{< tabbed-codeblock >}}
     <!-- tab python -->
         print "Hello World!将来,你要用左手的锤子保护好右手的草。" 
     <!-- endtab -->
     <!-- tab cpp -->
-        cout \<\<"风之极，落日耀——"\<\<endl;
+        cout << "风之极，落日耀——" << endl;
     <!-- endtab -->
     <!-- tab c-->
-        # include \<iostream.h\>
+        # include <iostream.h>
 	      void main()
         { 
             printf("言葉ばにできず　凍えたままで",s%);
