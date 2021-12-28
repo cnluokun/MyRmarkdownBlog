@@ -73,7 +73,7 @@ void main()
 ## Tabbed Code Block
 
 ```{r echo=FALSE}
-blogdown::shortcode_open_html("tabbed-codeblock")
+blogdown::shortcode_open("tabbed-codeblock",.type="html")
 ```
     <!-- tab python -->
      print "Hello World!将来,你要用左手的锤子保护好右手的草。"
@@ -89,6 +89,6 @@ blogdown::shortcode_open_html("tabbed-codeblock")
     }
     <!-- endtab --> 
 ```{r echo=FALSE}
-blogdown::shortcode_close_html("tabbed-codeblock")
+blogdown::shortcode_close("tabbed-codeblock",.type="html")
 ```
 
