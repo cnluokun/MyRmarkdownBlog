@@ -73,27 +73,27 @@ void main()
 ## Tabbed Code Block
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tabbed-codeblock",.type="html")
+blogdown::shortcode_open("tabbed",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tab","python",.type="html")
+blogdown::shortcode_open("tabpane","python",.type="html")
 ```
      print "Hello World!将来,你要用左手的锤子保护好右手的草。"
 ```{r echo=FALSE}
-blogdown::shortcode_close("tab",.type="html")
+blogdown::shortcode_close("tabpane",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tab","cpp",.type="html")
+blogdown::shortcode_open("tabpane","cpp",.type="html")
 ```
     cout<<"风之极，落日耀——"<<endl;
 ```{r echo=FALSE}
-blogdown::shortcode_close("tab",.type="html")
+blogdown::shortcode_close("tabpane",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tab","c",.type="html")
+blogdown::shortcode_open("tabpane","c",.type="html")
 ```
     #include<iostream.h>
     void main()
@@ -101,10 +101,10 @@ blogdown::shortcode_open("tab","c",.type="html")
     printf("言葉ばにできず　凍えたままで",s%);
     }
 ```{r echo=FALSE}
-blogdown::shortcode_close("tab",.type="html")
+blogdown::shortcode_close("tabpane",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_close("tabbed-codeblock","tab",.type="html")
+blogdown::shortcode_close("tabbed","tab",.type="html")
 ```
 

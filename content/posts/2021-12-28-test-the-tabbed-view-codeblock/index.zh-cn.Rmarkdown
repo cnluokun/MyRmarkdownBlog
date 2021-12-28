@@ -14,35 +14,35 @@ thumbnailImage: https://bityl.co/AFzN
 ## Tabbed Code Block
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tabbed-codeblock",.type="html")
+blogdown::shortcode_open("tabbed",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tab","js",.type="html")
+blogdown::shortcode_open("tabpane","js",.type="html")
 ```
 var test = 'test';
 ```{r echo=FALSE}
-blogdown::shortcode_close("tab",.type="html")
+blogdown::shortcode_close("tabpane",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tab","css",.type="html")
+blogdown::shortcode_open("tabpane","css",.type="html")
 ```
 .btn {
             color: red;
         }
 ```{r echo=FALSE}
-blogdown::shortcode_close("tab",.type="html")
+blogdown::shortcode_close("tabpane",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_open("tab","js",.type="html")
+blogdown::shortcode_open("tabpane","js",.type="html")
 ```
 var test = 'test';
 ```{r echo=FALSE}
-blogdown::shortcode_close("tab",.type="html")
+blogdown::shortcode_close("tabpane",.type="html")
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode_close("tabbed-codeblock",.type="html")
+blogdown::shortcode_close("tabbed",.type="html")
 ```

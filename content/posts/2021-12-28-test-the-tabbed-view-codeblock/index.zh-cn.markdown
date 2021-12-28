@@ -13,20 +13,20 @@ thumbnailImage: https://bityl.co/AFzN
 
 ## Tabbed Code Block
 
-{{< tabbed-codeblock >}}
+{{< tabbed >}}
 
-{{< tab "js" >}}
+{{< tabpane "js" >}}
 var test = ‘test’;
-{{< /tab >}}
+{{< /tabpane >}}
 
-{{< tab "css" >}}
+{{< tabpane "css" >}}
 .btn {
 color: red;
 }
-{{< /tab >}}
+{{< /tabpane >}}
 
-{{< tab "js" >}}
+{{< tabpane "js" >}}
 var test = ‘test’;
-{{< /tab >}}
+{{< /tabpane >}}
 
-{{< /tabbed-codeblock >}}
+{{< /tabbed >}}
