@@ -37,7 +37,6 @@ blogdown::shortcode_close("tab")
 ```{r echo=FALSE}
 blogdown::shortcode_open("tab","c")
 ```
-    <!-- tab c-->
     #include<iostream.h>
     void main()
     { 

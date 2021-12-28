@@ -25,7 +25,6 @@ cout&lt;&lt;“风之极，落日耀——”&lt;&lt;endl;
 {{% /tab %}}
 
 {{% tab "c" %}}
-<!-- tab c-->
 \#include&lt;iostream.h&gt;
 void main()
 {
