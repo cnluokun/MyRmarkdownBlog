@@ -210,7 +210,7 @@ params:
       url: /#about
   syntaxHighlighter: highlight.js
   thumbnailImage: true
-  thumbnailImagePosition: left
+  thumbnailImagePosition: right
   
   
   
