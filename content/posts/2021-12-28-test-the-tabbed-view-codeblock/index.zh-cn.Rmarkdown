@@ -8,6 +8,7 @@ tags: []
 coverImage: https://bityl.co/AFzN
 coverMeta: in
 metaAlignment: center
+thumbnailImage: https://bityl.co/AFzN
 ---
 
 ## Tabbed Code Block
