@@ -15,29 +15,17 @@ metaAlignment: center
 {{< tabbed-codeblock >}}
 
 {{< tab "js" >}}
-
-``` javascript
-var test = 'test';
-```
-
+var test = ‘test’;
 {{< /tab >}}
 
 {{< tab "css" >}}
-
-``` css
 .btn {
-            color: red;
-        }
-```
-
+color: red;
+}
 {{< /tab >}}
 
 {{< tab "js" >}}
-
-``` javascript
-var test = 'test';
-```
-
+var test = ‘test’;
 {{< /tab >}}
 
 {{< /tabbed-codeblock >}}

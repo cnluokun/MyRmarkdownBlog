@@ -19,9 +19,7 @@ blogdown::shortcode_open("tabbed-codeblock",.type="html")
 ```{r echo=FALSE}
 blogdown::shortcode_open("tab","js",.type="html")
 ```
-```javascript
 var test = 'test';
-```
 ```{r echo=FALSE}
 blogdown::shortcode_close("tab",.type="html")
 ```
@@ -29,12 +27,9 @@ blogdown::shortcode_close("tab",.type="html")
 ```{r echo=FALSE}
 blogdown::shortcode_open("tab","css",.type="html")
 ```
-
-```css
 .btn {
             color: red;
         }
-```
 ```{r echo=FALSE}
 blogdown::shortcode_close("tab",.type="html")
 ```
@@ -42,9 +37,7 @@ blogdown::shortcode_close("tab",.type="html")
 ```{r echo=FALSE}
 blogdown::shortcode_open("tab","js",.type="html")
 ```
-```javascript
 var test = 'test';
-```
 ```{r echo=FALSE}
 blogdown::shortcode_close("tab",.type="html")
 ```
